@@ -2,11 +2,16 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import datetime
 import pytz
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env
+
+credentials_path = os.getenv("GOOGLE_CREDENTIALS_PATH")
 
 # -------------------------------
 # Step 1: Set up Google Sheets API
 # -------------------------------
-credentials_path = "./whatsapp-reminder-bot-16ca6d99dbf2.json"
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 creds = ServiceAccountCredentials.from_json_keyfile_name(credentials_path, scope)
 client = gspread.authorize(creds)
