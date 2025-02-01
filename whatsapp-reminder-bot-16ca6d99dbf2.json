@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "whatsapp-reminder-bot",
+  "private_key_id": "16ca6d99dbf272cbf792eb0437ea258a41141709",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC3G/GmuJudMMur\nU/vJJkwjqsYyTZbcWpJjBFdBPyqrUH74TyffO/+pVqeZV/ileP9d9n7UB7TX4AW0\n/nOtJgV0GyRaTy5NMVVbClU42dFHnGUcHUJyVSb+I5raHtFzagnxGJm/YzplBSF7\ntcvAgN3rhfWVX+GC111Qslh7X9BfzF5r2TZz8/RAggZ+jI1y6au5zXmSX6+wXsYe\nFTRLMvQe/FaY0zF2VuFpq4cakK9DV3F8Jv07b58ptY5ME3Kw4e+GGF8aNHFBCH5o\nJOPVqhDlgAA4Kv0BnCIksYffIRuGWOh4mHH6r7mKKY6KO/WkUkCTlakfke8ImTVv\nBeuGom5NAgMBAAECggEAAsW3SasrXfymZMRrgD7mcbbM8+eFVHZBl6Kx8IC0lG3u\nUjOemqxloUp41KNGljjIAwPvpSWtuQQBCh29Ih68f+bGTOC8hnor/Ooh4q+3kbI+\nPKf7wM/lvHzNBCbpzGnLVz1kXIez02I5wM3+lP5OfdmkH3wZZbn9hXKB0PJhLQYc\nSQm0sc0xjsZpdrJBoJy0gWuzg7lkUhs6HdC5iSjCY+ttaFTbfN5thfwVpOJ4BDSO\n2vtMCvE/8OxOrpK7C8UNt3xWdeJgnaeDIZ25Q65r7dIZnHume3cqYxfTnteKJeF9\ncJfjmTRFRWmbwG1vzzm1AGXd8/NLW3eLu8Qge4h74QKBgQDm3oNn/4AFk/C68BdQ\nHLXi1XssKZG9Mx4d4g2DnO+g+sNvBslPYIPwPiSTBhxNIqXaH3vp+w+CBAHt2F1F\nNQjCNcW/pQqucxdEisxlqhpSAGEh77nnrSdgr7CBOc7WL+4FI2d68ZZSKghEDz6i\nB/os/DAj6DKX8hBVpdhEzJ33LQKBgQDLCoge8ubHRdO7oRstwv4GpnouFOoOvZxy\nj0adruV29Q4vjM9tq0q/Av5POeZhTwzHRnDj2McV8XUI6HqdEYbg748SueW2q5hm\nh6mqHnwLdVW18vn2BICpZXgJoj+iC15bWHXdqbzaVN+m9sfcDPThtLainGFCo33s\nBlw4dH7HoQKBgQCJOXVN2XYU2qxZ0N9qhMYvv8hopYS0uq+J/5Ucx6k/PA3x7ky1\n255Qq/89TIKB7rg6AEC9ALdlBlDHOLWnrzA3j5KsqMLCkjIgUYfQXd0rJIKXk1Ai\nvq8LLyJwjRW+BdsqPrMBRpuc1tL28UC/OpKfLn7GuPtpiT3gSqVTr3OtOQKBgQC7\nB7OF1rhQnXjBoFDZ4YF//MAVTLyh4XWIbYRd4eqLnoZ3tJyqaBwNQaOitTILNvcN\nZUy+BUS2aNom34d6wdddwi4n0MfScdSLtbHK/BPFtkrCtNQeE920rLxbG3LEQPak\n7CJ+kkldUMtIEJDfmavFcWK+/Y/2A4YN8Xnnox/ZoQKBgQC2tLkkDN/nl8vi8abu\nLhatu1a8U+03R7v/D7rDIcZIzN2QPZ58OOc85IIU/MctG+hMJoVKLv/ysOefYZSj\n0ODLFK4rlRl6y5f6cawsNQd67WegAxZRTzTbf7deosLnYchEsgr77+9YTOKli4hP\npdmDtJjU24yL+2rZGvO19ed9Fw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-sheets-python@whatsapp-reminder-bot.iam.gserviceaccount.com",
+  "client_id": "103355817760356226018",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-sheets-python%40whatsapp-reminder-bot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
