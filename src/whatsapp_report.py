@@ -4,7 +4,7 @@ import datetime
 
 # 🔹 Step 1: Setup Google Sheets API
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("./whatsapp-reminder-bot-16ca6d99dbf2.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name("./whatsapp-reminder-bot-03d3534c6d33.json", scope)
 client = gspread.authorize(creds)
 
 # 🔹 Step 2: Open the Google Sheet

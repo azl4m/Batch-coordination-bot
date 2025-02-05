@@ -37,11 +37,11 @@ batch = "BCR61- Combined"
 tz = pytz.timezone("Asia/Kolkata")  # Change to your timezone if needed
 report_date = datetime.datetime.now(tz).strftime("%d-%m-%Y")
 time_slot = "11:30 AM - 12:30 PM"
-trainers = "Rohan N Devasia, Herrick Joseph"
-coordinators = "Nishad & Lithiya Thomas"
+trainers = "Rohan N Devasia, Herrick Joseph, Afzal Nazar"
+coordinators = "Nabeel Aslam, Nidhin K"
 topic_line = "Topic - [Details to be added later]"
-tldv_link = "https://tldv.io/app/meetings/679b17081309660013f4f37d/"
-prepared_by = "Nishad"
+tldv_link = "https://tldv.io/app/meetings/67a1ad55d847fb0013911518/"
+prepared_by = ""
 
 # -------------------------------
 # Step 5: Construct the report message

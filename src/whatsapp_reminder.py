@@ -2,12 +2,13 @@ import gspread
 import pywhatkit as kit
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
+import time
 
 # Step 1: Google Sheets API Setup
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/spreadsheets",
          "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
 
-creds = ServiceAccountCredentials.from_json_keyfile_name("./whatsapp-reminder-bot-16ca6d99dbf2.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name("./whatsapp-reminder-bot-03d3534c6d33.json", scope)
 client = gspread.authorize(creds)
 
 # Step 2: Open your Google Sheet
@@ -40,7 +41,13 @@ for row in data:
     if submitted.lower() == "no":  # Send reminder only if they haven't submitted
         message = f"Hi {name}, this is a reminder to submit your audio task before 10 PM. Please do it soon!"
         
-        # Send WhatsApp message
-        kit.sendwhatmsg_instantly(phone, message, wait_time=10, tab_close=True)
-print("Reminders sent successfully!")
+        try:
+            # Attempt to send WhatsApp message
+            kit.sendwhatmsg_instantly(phone, message, wait_time=10, tab_close=True)
+            print(f"Reminder sent successfully to {name}!")
+            time.sleep(1)
+        except Exception as e:
+            print(f"Failed to send reminder to {name}. Error: {e}")
+            
+print("Reminder process completed!")
 #py whatsapp_reminder.py
